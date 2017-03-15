@@ -1,0 +1,37 @@
+body{
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;	
+}
+
+.navbar{
+	background-color: #883219;
+	border-radius: 0;
+	border: 1px solid black;
+}
+
+#brand{
+	font-weight: bold;
+	color: black;
+}
+
+.container-fluid .row{
+	margin: 15px;
+}
+
+.row section h3{
+	font-weight: bold;
+}
+
+#row-section{
+	background-color: #dee060;
+}
+
+ #collapsable-nav ul li a{
+ 	color: black;
+ }
+
+@media (max-width: 768px){
+	.container-fluid .row{
+		margin: 30px;
+	}
+}
